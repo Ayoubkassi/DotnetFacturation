@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ryota/Desktop/DotnetFacturation/Facturation/Facturation.csproj": {}
+    "/home/ryota/Downloads/DotnetFacturation/Facturation/Facturation.csproj": {}
   },
   "projects": {
-    "/home/ryota/Desktop/DotnetFacturation/Facturation/Facturation.csproj": {
+    "/home/ryota/Downloads/DotnetFacturation/Facturation/Facturation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ryota/Desktop/DotnetFacturation/Facturation/Facturation.csproj",
+        "projectUniqueName": "/home/ryota/Downloads/DotnetFacturation/Facturation/Facturation.csproj",
         "projectName": "Facturation",
-        "projectPath": "/home/ryota/Desktop/DotnetFacturation/Facturation/Facturation.csproj",
+        "projectPath": "/home/ryota/Downloads/DotnetFacturation/Facturation/Facturation.csproj",
         "packagesPath": "/home/ryota/.nuget/packages/",
-        "outputPath": "/home/ryota/Desktop/DotnetFacturation/Facturation/obj/",
+        "outputPath": "/home/ryota/Downloads/DotnetFacturation/Facturation/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ryota/.nuget/NuGet/NuGet.Config"

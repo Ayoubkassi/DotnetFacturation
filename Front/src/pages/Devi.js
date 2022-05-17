@@ -39,7 +39,7 @@ const Devi = () => {
       <thead className="thead-dark">
         <tr>
         <th>ID</th>
-        <th>Prix</th>
+        <th>Status</th>
         <th>Quantite</th>
         <th>Date</th>
         </tr>
@@ -49,7 +49,9 @@ const Devi = () => {
         devis.map(devi => (
           <tr>
             <td>{devi.id}</td>
-
+            <td>{devi.status}</td>
+            <td>{devi.quantite}</td>
+            <td>{devi.date}</td>
           </tr>
         ))
       }
@@ -57,7 +59,7 @@ const Devi = () => {
       </table>
 
       <div>
-        <button className="btn btn-primary">Add New Devi</button>
+        <button className="btn btn-primary"><a href="/new_devi">Add New Devi</a></button>
       </div>
 
     </div>

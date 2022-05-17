@@ -11,6 +11,8 @@ import Devi from './pages/Devi';
 import Facture from './pages/Facture';
 import Navbar from './components/Navbar'
 import NewClient from './pages/NewClient';
+import NewFacture from './pages/NewFacture';
+import NewDevi from './pages/NewDevi';
 
 function App() {
 
@@ -25,6 +27,9 @@ function App() {
         <Route path="/facture"  element={<Facture/>} />
         <Route path="/devi"  element={<Devi/>} />
         <Route path="/new_client"  element={<NewClient/>} />
+        <Route path="/new_facture"  element={<NewFacture/>} />
+        <Route path="/new_devi"  element={<NewDevi/>} />
+
 
       </Routes>
     </Router>

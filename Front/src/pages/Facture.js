@@ -59,7 +59,7 @@ const Facture = () => {
       </table>
 
       <div>
-        <button className="btn btn-primary">Add New Fcature</button>
+        <button className="btn btn-primary"><a href="/new_facture">Add New Facture</a></button>
       </div>
 
     </div>
