@@ -13,6 +13,7 @@ import Navbar from './components/Navbar'
 import NewClient from './pages/NewClient';
 import NewFacture from './pages/NewFacture';
 import NewDevi from './pages/NewDevi';
+import Export from './pages/Export';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/new_client"  element={<NewClient/>} />
         <Route path="/new_facture"  element={<NewFacture/>} />
         <Route path="/new_devi"  element={<NewDevi/>} />
+        <Route path="/export"  element={<Export/>} />
 
 
       </Routes>

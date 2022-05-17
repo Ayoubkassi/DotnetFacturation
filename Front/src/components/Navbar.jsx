@@ -25,6 +25,10 @@ const Navbar = () => {
             <a className="nav-link" href="/devi">Devis</a>
           </li>
 
+          <li className="nav-item active">
+            <a className="nav-link" href="/export">Export Excel</a>
+          </li>
+
         </ul>
 
       </div>
